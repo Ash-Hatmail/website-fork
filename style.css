@@ -1,0 +1,38 @@
+html {
+    background-color: #ffc4e5;
+    color: #ff4191;
+}
+#site_header {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #561b3b
+}
+#header_text {
+    font: 800 40px Arial;
+    -webkit-text-fill-color: #ff4191;
+    -webkit-text-stroke: 1px;
+}
+.sadgirlsclub-webring-container {
+  all:unset;
+  display:flex;
+  flex-direction:column;
+  padding:1em;
+  font-size:1.125rem
+}
+.sadgirlsclub-webring-description {
+  margin-block-end:.5em
+}
+.sadgirlsclub-webring-site-links {
+  display:grid;
+  grid-template-columns:repeat(3, minmax(0, 1fr));
+  list-style:none;
+  margin:0;
+  padding:0
+}
+.sadgirlsclub-webring-prev-site a::before {
+  content:"←";
+  margin-inline-end:1ch
+}
+.sadgirlsclub-webring-next-site a::after {
+  content:"→";
+  margin-inline-start:1ch
+}
